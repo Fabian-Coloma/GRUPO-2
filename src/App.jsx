@@ -1,9 +1,14 @@
+import React from 'react';
+import Layout from './components/Navbar';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 function App() {
   
 
   return (
     <>
-     <p>Pamela Suarez</p>
+    <Navbar></Navbar>
+    <Footer></Footer>
     </>
   )
 }
