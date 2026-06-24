@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,9 +11,9 @@ const Navbar = () => {
         
         {/* COLUMNA IZQUIERDA: Enlaces Desktop (Ocultos en móvil) */}
         <div className="flex-1 hidden md:flex items-center gap-6 font-body text-sm font-medium">
-          <a href="#" className="hover:text-brand-red transition-colors">Home</a>
-          <a href="#" className="hover:text-brand-red transition-colors">About us</a>
-          <a href="#" className="hover:text-brand-red transition-colors">Dishes</a>
+          <Link to={"/"} className="hover:text-brand-red transition-colors">Home</Link>
+          <Link to={"/about"} className="hover:text-brand-red transition-colors">About us</Link>
+          <Link to={"/dishes"} className="hover:text-brand-red transition-colors">Dishes</Link>
           
         </div>
 

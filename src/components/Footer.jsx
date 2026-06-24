@@ -43,12 +43,12 @@ const Footer = () => {
 
         {/* COLUMNA 3: Template */}
         <div className="flex flex-col gap-3 font-body md:items-end">
-          <h3 className="font-heading font-bold text-lg mb-2">GRUPO 2</h3>
-          <a href="https://my-portfolio-seven-gamma-61.vercel.app/" target="_blank"
+          <h3 className="font-heading font-bold text-lg mb-2">MEET OUR TEAM</h3>
+          <a href="https://practica7-sandy.vercel.app/" target="_blank"
           className="text-sm text-gray-600 hover:text-brand-red transition-colors">Fabian Coloma</a>
-          <a href="https://my-portfolio-seven-gamma-61.vercel.app/" target="_blank"
+          <a href="https://project-w2.vercel.app/" target="_blank"
           className="text-sm text-gray-600 hover:text-brand-red transition-colors">Rafael Lopez</a>
-          <a href="https://my-portfolio-seven-gamma-61.vercel.app/" target="_blank"  
+          <a href="https://mini-proyecto-five.vercel.app/" target="_blank"  
           className="text-sm text-gray-600 hover:text-brand-red transition-colors">Ricardo Miranda</a>
           <a  href="https://my-portfolio-seven-gamma-61.vercel.app/" target="_blank" 
           className="text-sm text-gray-600 hover:text-brand-red transition-colors">Pamela Suárez</a>

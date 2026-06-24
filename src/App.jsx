@@ -1,5 +1,7 @@
 import React from 'react';
-import Layout from './components/Navbar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 function App() {
@@ -7,8 +9,22 @@ function App() {
 
   return (
     <>
-    <Navbar></Navbar>
-    <Footer></Footer>
+    <BrowserRouter>
+    
+      <div className="min-h-screen flex flex-col bg-brand-cream text-brand-black font-body">
+                <Navbar />
+
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
+        </main>
+        <Footer />
+
+      </div>
+      
+    </BrowserRouter>
     </>
   )
 }
