@@ -4,8 +4,9 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-function App() {
-  
+import Bottom from './components/Bottom';
+
+function App() {  
 
   return (
     <>
@@ -20,10 +21,10 @@ function App() {
             <Route path="/about" element={<About />} />
           </Routes>
         </main>
+      <Bottom/>
         <Footer />
-
       </div>
-      
+
     </BrowserRouter>
     </>
   )
