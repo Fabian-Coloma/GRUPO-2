@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-4">
           <div className="font-heading font-bold text-2xl tracking-wider flex items-center gap-2">
             <span className="text-brand-red" aria-hidden="true">🍝</span>
-            ATLAS CUISINE <spa>🗺</spa>
+            ATLAS CUISINE <span>🗺</span>
           </div>
           
           {/* Formulario de Suscripción */}

@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export default function Fabian() {
   const [categorias, setCategorias] = useState([]);
+  const navigate = useNavigate(); 
 
   
   const nombresEnEspanol = {
@@ -32,8 +34,8 @@ export default function Fabian() {
   }, []);
 
   
-  const irALasRecetas = (categoriaId) => {
-    window.location.href = `/platos?categoria=${categoriaId}`;
+const irALasRecetas = (categoriaNombre) => {
+    navigate(`/dishes?categoria=${categoriaNombre}`); 
   };
 
   return (
