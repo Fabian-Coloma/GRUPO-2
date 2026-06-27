@@ -19,7 +19,7 @@ const Navbar = () => {
 
         {/* COLUMNA CENTRAL: Logo */}
         <div className="min-w-0 font-heading font-bold text-lg md:text-2xl tracking-wider flex items-center gap-2 px-2">
-           <span className="text-brand-red flex-shrink-0" aria-hidden="true">🍝</span>
+           <span className="text-brand-red shrink-0" aria-hidden="true">🍝</span>
            ATLAS CUISINE <span>🗺</span>
         </div>
 
