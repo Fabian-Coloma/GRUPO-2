@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react"
+import { useNavigate } from "react-router-dom"; // 1. Importar
 
 export default function Ricardo() {
+  const navigate = useNavigate(); // 2. Inicializar
   const [comidas, setComidas] = useState([])
   const [mostrando, setMostrando] = useState(0)
   const [elementos, setElementos] = useState({ ingredientes: [], instrucciones: "", nombre: "" })
@@ -8,6 +10,9 @@ export default function Ricardo() {
   const [modalReceta, setModalReceta] = useState(null)
   const [trabajando, setTrabajando] = useState(true)
   const [error, setError] = useState(null)
+  async function irAlDetalleDinamico(idMeal) {
+    navigate(`/dish/${idMeal}`); // 3. Redirección limpia e interna
+  }
 
   useEffect(() => {
     const fetchComidas = async () => {
