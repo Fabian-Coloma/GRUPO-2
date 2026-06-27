@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom'; // 1. Importar el hook
+import { useNavigate } from 'react-router-dom';
 
 export default function Fabian() {
   const [categorias, setCategorias] = useState([]);
