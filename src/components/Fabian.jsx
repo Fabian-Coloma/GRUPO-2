@@ -42,7 +42,7 @@ const irALasRecetas = (categoriaNombre) => {
     <div className="bg-[#FCF8F2] py-10 w-full">
       
     
-      <div className="flex flex-wrap justify-center gap-8">
+      <div className="flex flex-wrap justify-center gap-20">
         
         {categorias.map(cat => (
           <div 
@@ -56,11 +56,11 @@ const irALasRecetas = (categoriaNombre) => {
             </h2>
             
             
-            <div className="w-32 h-52 rounded-full overflow-hidden bg-black border-4 border-transparent hover:border-red-500">
+            <div className="w-32 h-47 rounded-full overflow-hidden bg-black border-4 border-transparent hover:border-red-500">
               <img 
                 src={cat.strCategoryThumb} 
                 alt={cat.strCategory} 
-                className="w-full h-full object-cover" 
+                className="w-full h-full object-cover scale-165" 
               />
             </div>
           </div>

@@ -9,11 +9,9 @@ const Footer = () => {
         
         {/* COLUMNA 1: Company */}
         <div className="flex flex-col gap-3 font-body">
-          <h3 className="font-heading font-bold text-lg mb-2">COMPANY</h3>
-          <a href="#" className="text-sm text-gray-600 hover:text-brand-red transition-colors">Home</a>
-          <a href="#" className="text-sm text-gray-600 hover:text-brand-red transition-colors">About Us</a>
-          <a href="#" className="text-sm text-gray-600 hover:text-brand-red transition-colors">Dishes</a>
-          <a href="https://funvalinternacional.org/" target="_blank" className="text-sm text-gray-600 hover:text-brand-red transition-colors">FUNVAL</a>
+          <h3 className="font-heading font-bold text-lg">COMPANY</h3>
+          <p>Learn to code with</p>
+          <a href="https://funvalinternacional.org/" target="_blank" className="text-2xl font-bold text-gray-600 hover:text-brand-red transition-colors">F U N V A L</a>
 
         </div>
 
