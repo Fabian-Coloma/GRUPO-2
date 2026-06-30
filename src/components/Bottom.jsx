@@ -65,10 +65,10 @@ const Bottom = () => {
               Food <br /> Accounts <br /> That We Love
             </h3>
           </div>
-          
+{/*           
           <a href={galeriaComida[0].linkDestino} target="_blank" rel="noopener noreferrer" className={`${linkStyle} w-full h-[200px]`}>
             <img src={galeriaComida[0].urlImagen} alt={galeriaComida[0].altText} className="w-full h-full object-cover" />
-          </a>
+          </a> */}
         </div>
 
         {/* COLUMNA 2: Imagen Larga Vertical */}
